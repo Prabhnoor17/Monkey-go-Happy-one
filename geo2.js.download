@@ -1,0 +1,16 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "COIMBATORE",
+      'continent': "AS",
+      'country': "IN",
+      'region': "TN"
+    },
+    'ip':"49.204.180.78"
+  }]);
+})
+//
+()
+
+;
